@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device, initial-scal=1.0">
+    <title>MADARAX SOUNDS</title> 
+    <link rel="stylesheet" href="SoundPage/style.css">
+    </head>
+
+    <body>
+    <div class ="hero">
+        <div class="navbar">
+            <div class="title">
+        <section class="section--logo section--logo__title">
+         
+                <Strong><h1>MADARA' X PRODUCTIONS</h1></Strong>
+        </section>
+        <section class="section--subtitle section--logo__subtitle">
+                <h4>Audio Refinenment At Its Highest</h4>
+         </section>
+            </div>
+            
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">My work</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact me</a></li>
+            </ul>
+            
+        </div>
+        </div>
+        
+        <div class="content">
+        
+        <div class="left"></div>
+            <h1>SIMPLE PROJECTS <br> BECOMING<br> QUALITY AUDIO</h1>
+        <div class="right">
+            <p>Press play for preview</p>
+            <img src="sOUNDpAGE/media/iconplay.jpg" id="icon">
+        </div>
+        
+        </div>
+        
+        <audio id="mysong">
+            <source src="PORTFOLIO/Sound%20Web%20Page/media/130bpm-asian-quantanized.wav" type="audio/mp3" type="audio/wav">
+        </audio>
+        
+        <script>
+            
+            var mysong = document.getElementById("mysong");
+            var icon = document.getElementById("icon");
+            
+            icon.onclick = function({
+                if(mysong.paused){
+                mysong.play();
+                icon.src ="SoundPage/media/pause.jpg";
+            }else{
+               
+            mysong.pause();
+            icon.src = "SoundPage/media/iconplay.jpg";
+            }
+            })
+        
+        </script>
+    </body>
+
+</html>

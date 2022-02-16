@@ -1,0 +1,127 @@
+*{
+    
+    padding : 0;
+    margin: 0;
+}
+
+.hero{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/enoc-valenzuela-5n3voxk3JDU-unsplash.jpg);
+    background-position : center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    
+    width: 88%;
+    margin: auto;
+    padding: 15px 20px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.navbar ul li {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 1%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.section--subtitle{
+    padding-top: 2%;
+}
+.section--logo{
+    
+    font-family:  helvetica, sans-serif;
+    background: #E6E6E6;
+    background: -webkit-linear-gradient(to left, #E6E6E6 0%, #B0B8A5 59%, #E3E3DF 100%);
+    background: -moz-linear-gradient(to left, ##B6B8B4 0%, #B0B8A5 59%, #E3E3DF 100%);
+    background: linear-gradient(to left, #E6E6E6 0%, #B0B8A5 59%, #E3E3DF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 100%;
+    padding: 10px 0 0 0px;
+    margin: 0px;
+}
+.section--subtitle{
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 30%, #cfc09f 30%, #cfc09f 27%,#ffecb3 30%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-family: Tiresias , sans-serif;
+    margin-left: 7%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    }
+
+.content {
+    width : 93.5%;
+    position: absolute;
+    top: 30%;
+    margin-left: 6.5%;
+    font-family: arial, sans-serif;
+    background: #2E2C30;
+    background: -webkit-linear-gradient(to left, #2E2C30 0%, #BFBFBF 59%, #3D3D3C 100%);
+    background: -moz-linear-gradient(to left, #2E2C30 0%, #BFBFBF 59%, #3D3D3C 100%);
+    background: linear-gradient(to left, #2E2C30 0%, #BFBFBF 59%, #3D3D3C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.left{
+    
+    margin-left: 6%;
+
+}
+
+.left h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.right{
+    float: right;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+.right img{
+    transform: rotate(180deg) scale(-40%);
+    margin-bottom: 0; 
+    margin-top: 0;
+
+   
+}
+
+.right p{
+    font-size: 20px;
+    padding-left: 0%;
+    font-family: sans-serif;
+}
+
+#icon {
+    cursor: pointer;
+    color: #fff;
+    overflow: hidden;
+    
+}
